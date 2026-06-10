@@ -1,14 +1,23 @@
 # 🚴 Bike Customer Segmentation Analysis
 
+![Python](https://img.shields.io/badge/Python-blue)
+![Pandas](https://img.shields.io/badge/Pandas-black)
+![Tableau](https://img.shields.io/badge/Tableau-blue)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
 Customer segmentation using RFM analysis to identify high-value and at-risk customers for targeted marketing strategy optimization.
+
+## 📊 Executive Summary
+
+- Built an RFM-based segmentation model using multi-year customer transaction data
+- Identified 11 behavioral customer segments
+- Discovered that recent and high-value customers drive majority of revenue
+- Highlighted significant churn risk in Lost and High-Risk segments
+- Developed an interactive Tableau dashboard for business decision-making
 
 ## 📌 Project Overview
 
-This analysis is based on multi-year customer transaction data and demographic information. It applies RFM (Recency, Frequency, Monetary) analysis to segment customers into high-value, at-risk, and inactive groups for targeted marketing strategy optimization.
-
-The segmentation is performed using RFM (Recency, Frequency, Monetary) methodology, a behavior-based approach that groups customers based on their historical purchase patterns.
-
-The final output divides customers into 11 behavioral groups, enabling the business to identify high-value customers, churn-risk customers, and inactive customers for targeted engagement.
+This analysis is based on multi-year customer transaction and demographic data. It applies RFM (Recency, Frequency, Monetary) analysis to segment customers into 11 behavioral groups, enabling identification of high-value, churn-risk, and inactive customers for targeted marketing strategies.
 
 A Tableau dashboard has been developed to visualize customer behavior and segmentation insights.
 
@@ -33,7 +42,7 @@ The goal of this project is to:
 - Customers from **Manufacturing and Financial Services** dominate the dataset.
 - **Mass Customers** represent the largest wealth segment across all age groups.
 - RFM analysis shows that **recent and high-frequency customers generate higher monetary value**, indicating strong engagement patterns.
-- A significant portion of customers fall into **lost and high-risk segments**, highlighting churn-risk opportunities.
+- A significant portion of customers fall into **Lost and High-Risk segments**, highlighting churn risk opportunities.
 
 ---
 
@@ -129,10 +138,10 @@ Customers were segmented into 11 behavioral groups based on Recency, Frequency, 
 
 ## 📈 RFM Analysis Insights
 
-- **Platinum and Very Loyal customers** contribute the highest revenue share.
-- **Recent customers** show strong conversion potential.
-- **Frequent customers** generate higher monetary value.
-- **Lost customers** represent a significant churn segment.
+- **Platinum and Very Loyal customers** contribute the highest revenue share
+- **Recent customers** show strong conversion potential
+- **High-frequency customers** generate higher monetary value
+- **Lost customers** represent a significant churn segment
 
 <p align="center">
   <img src="visualizations/Recency%20vs%20Monetary.png" width="500" style="margin-right:10px;"/>
@@ -173,15 +182,59 @@ The dataset includes:
 
 ---
 
+## 📁 Repository Structure
+
+```text
+Bike-Customer-Segmentation/
+│
+├── clean_data/
+│
+├── raw_data/
+│
+├── notebooks/
+│
+├── visualizations/
+│
+├── python_files/
+│
+├── README.md
+```
+
+---
+
+## 📂 Data Source
+
+The dataset contains retail customer transaction and demographic data used for RFM-based segmentation analysis.
+
+---
+
 ## 🚀 Business Impact
 
 This analysis helps the business to:
 
-- Improve customer targeting strategies
+- Improve customer targeting and segmentation strategies
 - Reduce customer churn
 - Increase marketing efficiency
 - Optimize segmentation strategy
 - Enhance revenue through personalized campaigns
+
+---
+
+## 💡 Business Recommendations
+
+- Focus marketing efforts on Platinum and Very Loyal customers to maximize ROI
+- Re-engage Lost and High-Risk customers using targeted campaigns
+- Convert Recent Customers into long-term loyal customers
+- Personalize offers for Mass Customer segment to improve retention
+
+---
+
+## 🚀 Future Improvements
+
+- Automate the RFM segmentation pipeline using Python scripts
+- Deploy an interactive dashboard using Tableau Public refresh automation
+- Integrate clustering algorithms (K-Means) for comparison with RFM segmentation
+- Build a customer lifetime value (CLV) model
 
 ---
 
