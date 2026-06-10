@@ -1,3 +1,145 @@
+# 🚴 Bike Customer Segmentation Analysis
+
+## 📌 Project Overview
+
+This project focuses on analyzing customer purchasing behavior for an automobile bike company to identify valuable customer segments and improve targeted marketing strategies.
+
+Customer segmentation is performed using RFM (Recency, Frequency, Monetary) analysis, a behavior-based approach that groups customers based on their past purchase activity.
+
+The final segmentation divides customers into 11 behavioral groups, enabling the business to identify high-value customers, at-risk customers, and inactive customers for targeted engagement.
+
+A Tableau dashboard was built to visualize customer behavior and segmentation insights.
+
+---
+
+## 🎯 Business Objective
+
+The goal of this project is to:
+
+- Identify high-value customer segments
+- Understand purchasing behavior patterns
+- Improve customer retention strategies
+- Support data-driven marketing decisions
+- Increase overall sales efficiency
+
+---
+
+## 🧠 Key Insights
+
+- Platinum and Very Loyal customers generate the highest revenue contribution despite being a smaller segment.
+- A significant portion of customers fall into Lost and High-Risk categories, indicating churn risk.
+- Customers with recent purchases show higher monetary value, indicating strong engagement.
+- The 40–49 age group dominates both new and existing customer segments.
+- Female customers account for slightly higher bike purchases (~51%).
+
+---
+
+## 📊 Tableau Dashboard
+
+The Sales Dashboard for Customer Segmentation can be found here:  
+https://public.tableau.com/app/profile/chirag.arya4385/viz/Customersegmentationdashboard_16941047002960/SalesDashboard
+
+![Tableau Dashboard](media_files/Customer%20Segmentation%20Dashboard.png)
+
+---
+
+## 📊 Exploratory Data Analysis
+
+### Customer Demographics
+- Age distribution across new and existing customers
+- Gender-based purchase behavior
+- Wealth segmentation across age groups
+
+### Customer Behavior
+- Job industry distribution
+- Car ownership patterns by state
+- Purchase behavior trends
+
+### Revenue Insights
+- Relationship between Recency, Frequency, and Monetary value
+- Identification of high-value customer clusters
+
+---
+
+## 🧩 Customer Segmentation (RFM Model)
+
+Customers were segmented into 11 groups:
+
+- Platinum Customers
+- Very Loyal Customers
+- Recent Customers
+- Potential Customers
+- Lost Customers
+- Losing Customers
+- High Risk Customers
+- Evasive Customers
+- Becoming Loyal Customers
+- Almost Lost Customers
+- Late Bloomers
+
+---
+
+## 📈 Segmentation Insights
+
+- Platinum and Very Loyal customers contribute the highest revenue share.
+- Lost customers form a significant inactive segment.
+- Recent customers show strong potential for conversion.
+- Higher engagement leads to higher monetary value.
+
+---
+
+## 📊 Visualizations
+
+| Age Distribution | Gender Analysis |
+|------------------|----------------|
+| ![](media_files/Old%20Customers%20Age%20Distribution.png) | ![](media_files/Gender%20based%20Bike%20Purchases.png) |
+
+| Customer Segments | RFM Analysis |
+|------------------|----------------|
+| ![](media_files/Customer%20Segment%20Distribution.png) | ![](media_files/Recency%20vs%20Monetary.png) |
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Tableau
+- Jupyter Notebook
+- Excel
+
+---
+
+## 📂 Dataset Information
+
+The dataset includes:
+
+- Customer Demographics
+- Transactions Data
+- New Customer List
+- Customer Address Data
+
+---
+
+## 🚀 Business Impact
+
+This analysis helps the business to:
+
+- Improve customer targeting
+- Reduce customer churn
+- Increase marketing efficiency
+- Optimize customer segmentation strategy
+- Enhance revenue through personalized campaigns
+
+---
+
+## 👤 Author
+
+Chirag Arya  
+GitHub: https://github.com/AryaChirag
+
+
+
+
 # Data Analytics Customer Segmentation
 
 ## Goal of the project
