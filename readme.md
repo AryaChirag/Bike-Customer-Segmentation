@@ -135,7 +135,7 @@ This analysis helps the business to:
 ## 👤 Author
 
 Chirag Arya  
-GitHub: https://github.com/AryaChirag
+GitHub: [AryaChirag](https://github.com/AryaChirag)
 
 
 
